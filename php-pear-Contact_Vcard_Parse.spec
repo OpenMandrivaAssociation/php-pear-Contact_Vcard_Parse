@@ -5,7 +5,7 @@
 Summary:	%{_pearname} - parse vCard 2.1 and 3.0 files
 Name:		php-pear-%{_pearname}
 Version:	1.31.0
-Release:	%mkrel 5
+Release:	%mkrel 6
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
@@ -15,7 +15,7 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Allows you to parse vCard files and text blocks, and get back an array
