@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.32.0
-Release:	%mkrel 2
+Release:	%mkrel 3
 Summary:	Parse vCard 2.1 and 3.0 files
 License:	PHP License
 Group:		Development/PHP
