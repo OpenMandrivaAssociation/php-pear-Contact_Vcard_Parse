@@ -8,7 +8,7 @@ Release:	7
 Summary:	Parse vCard 2.1 and 3.0 files
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/Contact_Vcard_Parse/
+URL:		https://pear.php.net/package/Contact_Vcard_Parse/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
